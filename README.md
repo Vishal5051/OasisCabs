@@ -1,102 +1,66 @@
 
 # OasisCabs
 
-## Description
+## Overview
 
-Briefly describe what your project does and its purpose.
+OasisCabs is a web platform designed to provide seamless transportation services, specifically catering to small-town cab providers. The platform simplifies the process of creating profiles and managing bookings, thereby empowering local taxi service providers to reach a broader audience.
 
-## Prerequisites
+## Features
 
-Before running this project, ensure you have the following installed:
+- **Profile Management**: Simplified profile creation for cab providers, making it easier for them to showcase their services.
+- **Booking System**: Efficient booking management for passengers, enabling easy access to available cabs in small towns.
+- **User-Friendly Interface**: An intuitive design that enhances accessibility, connecting taxi service providers and passengers seamlessly.
 
-- [Node.js](https://nodejs.org/) (v14 or higher)
-- [MySQL](https://www.mysql.com/) or another database if applicable
+## Technologies Used
 
-## Getting Started
+- **Frontend**: HTML, CSS, JavaScript, AngularJS
+- **Backend**: Node.js
+- **Database**: MySQL
 
-### Cloning the Repository
+## How to Setup
 
-First, clone the repository to your local machine:
+### Clone the Repository
+
+To get started with OasisCabs, clone the repository to your local machine:
 
 ```bash
-[git clone https://github.com/yourusername/your-repository.git](https://github.com/Vishal5051/OasisCabs.git)
-cd your-repository
+git clone <your-repository-link>
 ```
 
-### Installing Dependencies
+### Navigate to the Project Directory
 
-Navigate to the project directory and install the required Node.js packages:
+```bash
+cd OasisCabs
+```
+
+### Install Dependencies
+
+Install the required Node.js dependencies by running:
 
 ```bash
 npm install
 ```
 
-### Configuration
+### Run the Application
 
-Create a `.env` file in the root of your project directory and add the following environment variables:
-
-```dotenv
-PORT=your_port_number
-DB_HOST=your_database_host
-DB_USER=your_database_user
-DB_PASSWORD=your_database_password
-DB_NAME=your_database_name
-```
-
-Replace the placeholders with your actual database configuration details.
-
-### Running the Application
-
-To start the application, use the following command:
+Start the application using the following command:
 
 ```bash
 npm start
 ```
 
-This will run the server on the port specified in the `.env` file.
+### Access the Application
 
-### Running Tests (If Applicable)
+Open your web browser and go to [http://localhost:3000](http://localhost:3000) to access the OasisCabs platform.
 
-If you have tests set up, you can run them using:
+## Notes
 
-```bash
-npm test
+- Ensure that you have a MySQL database set up and configured to work with the OasisCabs platform.
+- If you encounter any issues, verify that all dependencies are correctly installed and the database is properly configured.
+
+## Contact
+
+For any questions or issues, please contact [vkc335524@gmail.com](mailto:vkc335524@gmail.com).
 ```
 
-### Accessing the Application
-
-Open your web browser and navigate to `http://localhost:your_port_number` to access the application.
-
-## API Endpoints
-
-Here are some of the key API endpoints available:
-
-- `GET /`: Serves the homepage.
-- `POST /driver-profile-save-data`: Saves driver profile data.
-- `POST /passanger-profile-save-data`: Saves passenger profile data.
-- `GET /fetch-car-records`: Fetches car records.
-- `GET /find-city`: Retrieves distinct cities.
-- `GET /find-cars`: Retrieves distinct car types.
-
-For more details on each endpoint, refer to the code or documentation.
-
-## Troubleshooting
-
-If you encounter issues, ensure:
-
-- Your `.env` file is correctly configured.
-- The MySQL database is running and accessible.
-- All dependencies are properly installed.
-
-## Contributing
-
-If you want to contribute to this project, please fork the repository and submit a pull request with your changes.
-
-## License
-
-Specify the license under which the project is distributed.
-### Contact
-
-For any questions or issues, please contact [vkc335524@gmail.com](vkc335524@gmail.com).
-
-This template covers most of the essential information others would need to get your project up and running. Adjust the content based on your specific project details and requirements.
+This format is designed for easy readability in a Markdown file and includes code blocks for commands, making it clear and user-friendly.
