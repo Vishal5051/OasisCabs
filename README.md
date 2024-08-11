@@ -24,7 +24,7 @@ OasisCabs is a web platform designed to provide seamless transportation services
 To get started with OasisCabs, clone the repository to your local machine:
 
 ```bash
-git clone <your-repository-link>
+[git clone <your-repository-link>](https://github.com/Vishal5051/OasisCabs.git)
 ```
 
 ### Navigate to the Project Directory
@@ -48,10 +48,6 @@ Start the application using the following command:
 ```bash
 npm start
 ```
-
-### Access the Application
-
-Open your web browser and go to [http://localhost:3000](http://localhost:3000) to access the OasisCabs platform.
 
 ## Notes
 
