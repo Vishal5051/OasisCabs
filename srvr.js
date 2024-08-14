@@ -60,12 +60,7 @@ app.get("/passanger-request", function (req, resp) {
 app.get("/dash-ad", function (req, resp) {
     resp.sendFile(process.cwd() + "/public/dash-admin.html");
 });
-app.get("/dasha-ad", function (req, resp) {
-    resp.sendFile(process.cwd() + "/public/dash-admin.html");
-});
-app.get("/dashbb-ad", function (req, resp) {
-    resp.sendFile(process.cwd() + "/public/dash-admin.html");
-});
+
 
 
  //   ===============================================driver data save=========================================
