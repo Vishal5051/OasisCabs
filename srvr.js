@@ -20,7 +20,7 @@ var doconfig = {
     password: process.env.DB_PASSWORD,
     database: process.env.DB_NAME
 };
-
+    
 var docon = mysql.createConnection(doconfig);
 docon.connect(function(err) {
     if (err == null)
@@ -58,6 +58,12 @@ app.get("/passanger-request", function (req, resp) {
     resp.sendFile(process.cwd() + "/public/request-driver.html");
 });
 app.get("/dash-ad", function (req, resp) {
+    resp.sendFile(process.cwd() + "/public/dash-admin.html");
+});
+app.get("/dasha-ad", function (req, resp) {
+    resp.sendFile(process.cwd() + "/public/dash-admin.html");
+});
+app.get("/dashbb-ad", function (req, resp) {
     resp.sendFile(process.cwd() + "/public/dash-admin.html");
 });
 
