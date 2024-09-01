@@ -14,7 +14,7 @@ OasisCabs is a web platform designed to provide seamless transportation services
 ## Technologies Used
 
 - **Frontend**: HTML, CSS, JavaScript, AngularJS
-- **Backend**: Node.js
+- **Backend**: Node.js  
 - **Database**: MySQL
 
 ## How to Setup      
