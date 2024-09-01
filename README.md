@@ -17,7 +17,7 @@ OasisCabs is a web platform designed to provide seamless transportation services
 - **Backend**: Node.js
 - **Database**: MySQL
 
-## How to Setup
+## How to Setup      
 
 ### Clone the Repository
 
