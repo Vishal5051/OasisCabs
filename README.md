@@ -29,7 +29,7 @@ To get started with OasisCabs, clone the repository to your local machine:
 
 ### Navigate to the Project Directory
 
-```bash
+```bash   
 cd OasisCabs
 ```
 
