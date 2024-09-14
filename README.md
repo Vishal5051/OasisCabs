@@ -21,7 +21,7 @@ OasisCabs is a web platform designed to provide seamless transportation services
 
 ### Clone the Repository
 
-To get started with OasisCabs, clone the repository to your local machine:
+To get started with OasisCabs, clone the repository to your local machine:  d
 
 ```bash
 [git clone <your-repository-link>](https://github.com/Vishal5051/OasisCabs.git)
