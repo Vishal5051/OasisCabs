@@ -11,7 +11,7 @@ OasisCabs is a web platform designed to provide seamless transportation services
 - **Booking System**: Efficient booking management for passengers, enabling easy access to available cabs in small towns.
 - **User-Friendly Interface**: An intuitive design that enhances accessibility, connecting taxi service providers and passengers seamlessly.     b
 
-## Technologies Used
+## Technologies Usedhhhh
 
 - **Frontend**: HTML, CSS, JavaScript, AngularJS
 - **Backend**: Node.js  
